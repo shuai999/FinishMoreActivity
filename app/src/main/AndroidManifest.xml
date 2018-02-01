@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.view.finish_activity">
+
+    <application
+        android:name=".app.AppApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 方法一中对应的Activity -->
+        <activity android:name=".method.second.first.FirstStep"/>
+        <activity android:name=".method.second.first.SecondStep"/>
+        <activity android:name=".method.second.first.ThirdStep"/>
+        <activity android:name=".method.second.first.FourthStep"/>
+
+
+        <!-- 方法二中对应的Activity -->
+        <activity android:name=".method.second.FirstStep"/>
+        <activity android:name=".method.second.SecondStep"/>
+        <activity android:name=".method.second.ThirdStep"/>
+        <activity android:name=".method.second.FourthStep"/>
+
+
+        <!-- 方法三种对应的Activity -->
+        <activity android:name=".method.second.third.FirstStep"/>
+        <activity android:name=".method.second.third.SecondStep"/>
+        <activity android:name=".method.second.third.ThirdStep"/>
+        <activity android:name=".method.second.third.FourthStep"/>
+
+
+        <!-- 方法四中对应的Activity-->
+        <activity android:name=".method.second.fourth.FirstStep"/>
+        <activity android:name=".method.second.fourth.SecondStep"/>
+        <activity android:name=".method.second.fourth.ThirdStep"/>
+        <activity android:name=".method.second.fourth.FourthStep"/>
+
+
+        <!-- 方法五中对应的Activity-->
+        <activity android:name=".method.second.fifth.FirstStep"/>
+        <activity android:name=".method.second.fifth.SecondStep"/>
+        <activity android:name=".method.second.fifth.ThirdStep"/>
+        <activity android:name=".method.second.fifth.FourthStep"/>
+    </application>
+
+</manifest>
